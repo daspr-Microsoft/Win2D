@@ -30,13 +30,6 @@ namespace canvas
             return E_NOTIMPL;
         }
 
-        STDMETHOD_(void, GetDesktopDpi)(
-            _Out_ FLOAT *dpiX,
-            _Out_ FLOAT *dpiY
-            )
-        {
-        }
-
         STDMETHOD(CreateRectangleGeometry)(
             _In_ CONST D2D1_RECT_F *rectangle,
             _Outptr_ ID2D1RectangleGeometry **rectangleGeometry

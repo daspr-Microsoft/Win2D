@@ -21,7 +21,7 @@ _May 2, 2018_
 
 This release removes support for the Windows 8.1 and Windows Phone 8.1 platforms. Legacy support for these remains available in Win2D 1.21.0, as a NuGet package and from the win81 branch on github.
 
-Building an app using Win2D 1.22.0 requires the April 2018 Update Windows SDK (version 17134). Attempting to build with an older SDK will fail:
+Building an app using Win2D 1.22.0 requires the April 2018 Update Windows SDK (version 18362). Attempting to build with an older SDK will fail:
 
     error CS7069: Reference to type 'IGeometrySource2D' claims it is defined in 'Windows.Foundation.UniversalApiContract', but it could not be found
 
